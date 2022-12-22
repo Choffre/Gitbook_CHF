@@ -42,6 +42,6 @@ Faire un programme qui allume une led lorsque l'on presse sur le bouton et qui s
 
 <summary>Exercice 2</summary>
 
-Modifier l'exercice 1 afin que le bouton fonctionne comme un interrupteur. On presse 1 première pour allumer, puis on presse à nouveau pour éteindre.
+Modifier l'exercice 1 afin que le bouton fonctionne comme un interrupteur. On presse une première fois pour allumer, puis on presse à nouveau pour éteindre.
 
 </details>

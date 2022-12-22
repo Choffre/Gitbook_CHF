@@ -14,3 +14,4 @@
   * [Lire un bouton](raspberry-pi-pico/programmation/lire-un-bouton.md)
   * [Lire une valeur analogique](raspberry-pi-pico/programmation/lire-une-valeur-analogique.md)
   * [Varier l'intensité d'une led](raspberry-pi-pico/programmation/varier-lintensite-dune-led.md)
+  * [Exercices](raspberry-pi-pico/programmation/exercices.md)

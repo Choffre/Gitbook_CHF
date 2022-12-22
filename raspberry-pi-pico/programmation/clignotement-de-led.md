@@ -18,10 +18,9 @@ while True:
 
 Pour interagir avec le hardware, il y a besoin d’importer des librairies de code MicroPython afin de les rendre accessible. Pour faire clignoter une led, nous avons besoin des librairies `machine et utime`.
 
-| `machine` | fournit les fonctions relative au hardware. Cette librairie contient la classe Pin qui permet de contrôler les pins I/O. [https://docs.micropython.org/en/latest/library/machine.Pin.html](https://docs.micropython.org/en/latest/library/machine.Pin.html) |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `utime`   | fournit les fonctions relative au temps. [https://docs.micropython.org/en/v1.15/library/utime.html](https://docs.micropython.org/en/v1.15/library/utime.html)                                                                                               |
-|           |                                                                                                                                                                                                                                                             |
+| `machine` | fournit les fonctions relative au hardware. Cette librairie contient la classe Pin qui permet de contrôler les pins I/O. |
+| --------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `utime`   | fournit les fonctions relative au temps.                                                                                 |
 
 {% hint style="info" %}
 A la place de mettre `import machine` et puis d'utiliser `machine.Pin`(), il est possible d'importer directement la classe Pin en écrivant `from machine import Pin`. Ainsi, il est possible de remplacer `machine.Pin(...)` par uniquement `Pin(...)`&#x20;
@@ -55,9 +54,9 @@ La classe `sleep` de la libraire `utime` permet de faire des pauses dans le prog
 
 Simplifier le code en utilisant la fonction toggle() au lieu de value().
 
-Regarder dans la documentation de la librairie Machine le fonctionnement de ces fonctions.
+Voici un lien sur la documentation de la librairie utime.&#x20;
 
-
+[https://docs.micropython.org/en/v1.15/library/utime.html](https://docs.micropython.org/en/v1.15/library/utime.html)
 
 </details>
 
@@ -73,7 +72,7 @@ Faire différent essais en diminuant le delay. Quel est le plus petit délai qui
 
 <summary>Exercice 3</summary>
 
-Ajouter une led externe avec la résistance nécessaire et la faire clignoter. Calculer la valeur de résistance nécessaire.
+Ajouter une led externe avec la résistance nécessaire et la faire clignoter.
 
 </details>
 
@@ -89,8 +88,6 @@ Ajouter une 2ème led externe et faire un programme qui les allument en alternan
 
 <summary>Exercice 5</summary>
 
-Connecter 5 leds externes et faire un chenillard.&#x20;
-
-Ne pas oublier les résistances en série avec chaque led.
+Mettre 5 leds externes et faire un chenillard.&#x20;
 
 </details>

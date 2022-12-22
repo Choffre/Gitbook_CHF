@@ -57,6 +57,10 @@ Si vous exécuter le code, vous obtiendrez une erreur disant que `i` n’est pas
  print("Loop running!")
 ```
 
+{% hint style="info" %}
+Dans l'exemple ci-dessus, nous utilisons deux fonctions prédéfinis qui sont les fonctions print() et range().&#x20;
+{% endhint %}
+
 ## Exercices
 
 {% tabs %}

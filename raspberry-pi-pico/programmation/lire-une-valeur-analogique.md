@@ -10,7 +10,7 @@ La résolution du Pico est de 12 bits mais lorsque l'on va lire le résultat d'u
 
 Le Pico a 3 pins qui peuvent être utilisé comme ADC. Il s'agit de GP26\_ADC0, GP27\_ADC1, GP28\_ADC2, respectivement channel 0, 1 et 2. Un 4ème channel est utilisé pour le capteur de température interne au Pico.
 
-Voici un code qui lit la valeur analogique de GP28 qui affiche la tension sur le shell. Utiliser un potentiomètre pour générer la tension analogique.&#x20;
+Voici un code qui lit la valeur analogique de GP26 qui affiche la tension sur le shell. Utiliser un potentiomètre pour générer la tension analogique.&#x20;
 
 ```python
 import machine

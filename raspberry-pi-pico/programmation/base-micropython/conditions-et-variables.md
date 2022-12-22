@@ -1,6 +1,6 @@
 # Conditions et variables
 
-Les variables peuvent prendre différentes valeurs qui peuvent être modifié à n'importe quel instant. On utilise des variables pour sauvegarder des données qui seront utilisées plus tard dans le code.&#x20;
+Les variables décrivent un endroit où l'on range des informations telles que des nombres, du texte, des listes de nombres ou de texte.  Elles peuvent être modifié à n'importe quel instant. On utilise des variables pour sauvegarder des données qui seront utilisées plus tard dans le code.&#x20;
 
 {% hint style="info" %}
 Contrairement à d'autre langage comme le C, les variables n'ont pas besoin d'être déclaré avant d'être utilisé.&#x20;

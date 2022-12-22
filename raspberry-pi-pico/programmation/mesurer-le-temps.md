@@ -1,4 +1,6 @@
-# Exercices
+# Mesurer le temps
+
+Nous avons utilisé précédemment la fonction`sleep()`de la librairie `utime`. Cette librairie comporte également la fonction ticks\_ms() qui retourne la valeur d'un compteur en milliseconde.
 
 ## Exercice 1: Test de réaction
 

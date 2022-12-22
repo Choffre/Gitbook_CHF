@@ -55,9 +55,13 @@ Voici la documentation python de la fonction `range`.
 [https://docs.python.org/3/library/stdtypes.html#typesseq-range](https://docs.python.org/3/library/stdtypes.html#typesseq-range)
 {% endhint %}
 
+<details>
 
+<summary>Exercice 1</summary>
 
+Utiliser un potentiomètre pour faire varier la luminosité d'une led. Lorsque le potentiomètre est au minimum, la led est éteinte et lorsque le potentiomètre est au maximum, la luminosité de la led est au maximum. &#x20;
 
+</details>
 
 
 

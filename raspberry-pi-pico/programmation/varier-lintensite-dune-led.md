@@ -32,7 +32,7 @@ while True:
         time.sleep(0.0001)
     for duty in range(65535, 0, -1):
         pwm_led.duty_u16(duty)
-        time.sleep(0.0001)// Some code
+        time.sleep(0.0001)
 ```
 
 On assigne la classe PWM instancié avec la GPIO 15 à la variable pwm\_led.&#x20;
@@ -55,9 +55,13 @@ Voici la documentation python de la fonction `range`.
 [https://docs.python.org/3/library/stdtypes.html#typesseq-range](https://docs.python.org/3/library/stdtypes.html#typesseq-range)
 {% endhint %}
 
+<details>
 
+<summary>Exercice 1</summary>
 
+Utiliser un potentiomètre pour faire varier la luminosité d'une led. Lorsque le potentiomètre est au minimum, la led est éteinte et lorsque le potentiomètre est au maximum, la luminosité de la led est au maximum. &#x20;
 
+</details>
 
 
 

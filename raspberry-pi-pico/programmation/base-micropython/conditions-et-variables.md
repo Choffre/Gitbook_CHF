@@ -1,10 +1,6 @@
 # Conditions et variables
 
-Les variables peuvent prendre différentes valeurs qui peuvent être modifié à n'importe quel instant. On utilise des variables pour sauvegarder des données qui seront utilisées plus tard dans le code.&#x20;
-
-{% hint style="info" %}
-Contrairement à d'autre langage comme le C, les variables n'ont pas besoin d'être déclaré avant d'être utilisé.&#x20;
-{% endhint %}
+Les variables décrivent un endroit où l'on range des informations telles que des nombres, du texte, des listes de nombres ou de texte.  Elles peuvent être modifié à n'importe quel instant. On utilise des variables pour sauvegarder des données qui seront utilisées plus tard dans le code.&#x20;
 
 Les variables ont un **nom** qui identifie la variable et une **valeur** qui est enregistré dans la variable.
 
@@ -18,7 +14,7 @@ Créer un nouveau programme et taper la ligne suivante:
 nom = input("Quel est le meilleur joueur de tennis? ")
 ```
 
-Exécuter le programme. Taper la réponse et puis appuyer sur Enter. Comme c’est l’unique ligne de code de votre programme, il ne se passe rien.
+Exécuter le programme. Ecrivez une réponse dans le shell et puis appuyer sur Enter. Comme c’est l’unique ligne de code de votre programme, il ne se passe rien.
 
 Ajouter les lignes suivantes pour utiliser le résultat.
 
@@ -42,4 +38,3 @@ Si l'on compare des nombres, il est possible d'utiliser les comparaisons suivant
 | <= | est plus petit ou égale à  |
 | == | est égal à                 |
 | != | est différent de           |
-

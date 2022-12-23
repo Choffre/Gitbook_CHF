@@ -22,7 +22,7 @@ Dans le logiciel Thonny, aller dans le menu "Tools" et puis "options". Dans l'on
 
 Si votre Pico n'a pas encore MicroPython installer, cliquer sur "Install or update MicroPython" puis choisir le "Target volume", la variante "MicroPython" (Raspberry Pi Pico ou Pico W) et la dernière version.
 
-Dans le shell, taper la ligne de code suivante:
+Thonny est composé d'une console de commande (Shell) et d'une partie éditeur de code. Dans le shell, taper la ligne de code suivante:
 
 ```
 print("hello world")

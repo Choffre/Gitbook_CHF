@@ -16,7 +16,7 @@ En alimentant une led avec un signal PWM, il est ainsi possible de varier sa lum
 
 Il serait possible de générer l'équivalent d'un signal PWM avec une GPIO standard et d'écrire le code qui modifie l'état de la sortie avec une boucle et un timer. Mais il existe une solution beaucoup plus efficace et plus simple. Chaque GPIO du Pico est équipé de bloc PWM.
 
-Voici un code d'exemple qui utilise le pwm pour varier l'intensité d'une led.
+Voici un code d'exemple qui utilise le PWM pour varier automatiquement l'intensité d'une led.
 
 ```python
 import machine

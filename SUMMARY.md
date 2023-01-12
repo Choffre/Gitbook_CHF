@@ -10,7 +10,7 @@
   * [Base MicroPython](raspberry-pi-pico/programmation/base-micropython/README.md)
     * [Boucles et indentation](raspberry-pi-pico/programmation/base-micropython/boucles-et-indentation.md)
     * [Conditions et variables](raspberry-pi-pico/programmation/base-micropython/conditions-et-variables.md)
-    * [Exemples avec variables](raspberry-pi-pico/programmation/base-micropython/exemples-avec-variables.md)
+    * [Opérations sur les variables numériques](raspberry-pi-pico/programmation/base-micropython/operations-sur-les-variables-numeriques.md)
   * [Clignotement de led](raspberry-pi-pico/programmation/clignotement-de-led.md)
   * [Lire un bouton](raspberry-pi-pico/programmation/lire-un-bouton.md)
   * [Lire une valeur analogique](raspberry-pi-pico/programmation/lire-une-valeur-analogique.md)

@@ -1,4 +1,4 @@
-# Ex 4: Défilement Led
+# Ex 4: Chenillard
 
 Mettez au point un programme permettant de faire défiler une LED en partant de LD0 à LD15 de façon cyclique.
 

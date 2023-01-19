@@ -1,4 +1,4 @@
-# Chifoumi
+# Ex5: Chifoumi
 
 Réaliser un système permettant de jouer à deux à « papier-caillou-ciseaux » ou « chifoumi ».
 

@@ -14,5 +14,5 @@
 ## Langage de description
 
 * [Introduction](langage-de-description/introduction.md)
-* [Page 3](langage-de-description/page-3.md)
+* [Exercices](langage-de-description/exercices.md)
 * [Page 1](langage-de-description/page-1.md)

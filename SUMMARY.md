@@ -14,5 +14,5 @@
 ## Langage de description
 
 * [Introduction](langage-de-description/introduction.md)
-* [Exercices](langage-de-description/exercices.md)
-* [Page 1](langage-de-description/page-1.md)
+* [Exercices](langage-de-description/page-3.md)
+* [Chifoumi](langage-de-description/chifoumi.md)

@@ -23,3 +23,16 @@ Nous allons utiliser la **description comportementale** dans ce cours et pour le
 L'architecture est divisée en deux parties : une zone déclarative et une zone d'instructions.&#x20;
 
 Les instructions sont concurrentes, elles s'exécutent en parallèle. Les instructions d'une architecture peuvent donc être écrites dans un ordre quelconque, le fonctionnement ne dépend pas de cet ordre d'écriture.
+
+```vhdl
+ARCHITECTURE Behavorial OF ENTITY_NAME IS
+    -- zone déclarative
+BEGIN
+    instruction concurrente;
+    instruction concurrente;
+    ..
+    instruction concurrente;
+END Behavorial;
+```
+
+La zone déclarative permet de définir des types, des signaux ou des constantes qui seront utilisés dans les instructions suivantes. Elle permet également de déclarer des composants externes. &#x20;

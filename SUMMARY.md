@@ -19,6 +19,13 @@
   * [Entité](langage-de-description/entite-et-architecture/entite.md)
   * [Architecture](langage-de-description/entite-et-architecture/architecture.md)
 
+***
+
+* [Signaux, constantes](signaux-constantes.md)
+* [Opérateurs](operateurs.md)
+* [Instructions concurrentes](instructions-concurrentes.md)
+* [Vecteurs](vecteurs.md)
+
 ## Exercices
 
 * [Ex 1: Allumer une led](langage-de-description/exercices/ex-1-allumer-une-led.md)

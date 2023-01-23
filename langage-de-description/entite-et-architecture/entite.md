@@ -5,12 +5,12 @@ L'entité représente donc la vue externe d'un circuit. On y trouve donc, dans l
 Voici la syntaxe de la déclaration d'entité.
 
 ```vhdl
-ENTITY Fonction1 IS
+ENTITY ENTITY_NAME IS
     PORT (
         A,B : mode type;
         C : mode type
     );
-END Fonction1;
+END ENTITY_NAME;
 ```
 
 ## Mode
@@ -48,3 +48,16 @@ DATA : in std_logic_vector(15 downto 0);
 ```
 
 `DATA` est donc un vecteur qui contient les 16 signaux de type `std_logic` suivants: `DATA(15), DATA(14), ..., DATA(1), DATA(0)`
+
+## Exemple
+
+Voici la déclaration de l'entité correspondant à l'exemple de la page précédente.
+
+```vhdl
+ENTITY Fonction1 IS
+    PORT (
+        A,B : IN std_logic;
+        C : OUT std_logic
+    );
+END Fonction1;
+```

@@ -14,10 +14,14 @@
 ## Langage de description
 
 * [Introduction](langage-de-description/introduction.md)
-* [Exercices](langage-de-description/page-3.md)
-  * [Ex 1: Allumer une led](langage-de-description/exercices/ex-1-allumer-une-led.md)
-  * [Ex 2: Allumer plusieurs Led](langage-de-description/exercices/ex-2-allumer-plusieurs-led.md)
-  * [Ex 3: Allumage simultané](langage-de-description/exercices/ex-3-allumage-simultane.md)
-  * [Ex 4: Chenillard](langage-de-description/exercices/ex-4-chenillard.md)
-  * [Ex 5: Convertisseur bin - 7 seg](langage-de-description/exercices/ex-5-convertisseur-bin-7-seg.md)
-  * [Ex 6: Chifoumi](langage-de-description/exercices/ex-6-chifoumi.md)
+* [Règles d'écriture du VHDL](langage-de-description/regles-decriture-du-vhdl.md)
+* [Page 1](langage-de-description/page-1.md)
+
+## Exercices
+
+* [Ex 1: Allumer une led](exercices/ex-1-allumer-une-led.md)
+* [Ex 2: Allumer plusieurs Led](exercices/ex-2-allumer-plusieurs-led.md)
+* [Ex 3: Allumage simultané](exercices/ex-3-allumage-simultane.md)
+* [Ex 4: Chenillard](exercices/ex-4-chenillard.md)
+* [Ex 5: Convertisseur bin - 7 seg](exercices/ex-5-convertisseur-bin-7-seg.md)
+* [Ex 6: Chifoumi](exercices/ex-6-chifoumi.md)

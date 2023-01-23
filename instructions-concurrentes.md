@@ -66,3 +66,20 @@ WITH selecteur SELECT
               ..
               expressionx WHEN OTHERS;
 ```
+
+Voici un exemple:
+
+```vhdl
+architecture behavioral of mux is
+
+signal ETAT : std_logic_vector(1 downto 0);
+signal X,A,B,C,D : std_logic;
+
+BEGIN
+    with ETAT select
+        X <= A when "00",
+             B when "01",
+             C when "10",
+             D when others;
+end ARCH_WITH;
+```

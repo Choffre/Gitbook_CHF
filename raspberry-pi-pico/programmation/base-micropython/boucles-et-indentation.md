@@ -1,12 +1,12 @@
 # Boucles et indentation
 
-Un programme en MicroPython s'exécute du haut au bas de la page, comme les autres langages de programmation, de la même manière que si l’on écrivait chaque ligne dans le Shell.&#x20;
+Un programme en MicroPython s'exécute du haut au bas de la page, comme les autres langages de programmation, de la même manière que si l’on écrivait chaque ligne une par une dans le Shell.&#x20;
 
 Contrairement au langage c par exemple, le MicroPython n’utilise pas de {} pour contrôler les séquences mais l’indentation.
 
 ## Boucle fini
 
-Créer un nouveau programme dans Thonny et commencer le program par:
+Créer un nouveau programme dans Thonny et commencer le programme par:
 
 <pre class="language-python"><code class="lang-python">print("Start!")
 for <a data-footnote-ref href="#user-content-fn-1">i </a>in range(10):

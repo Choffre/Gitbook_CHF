@@ -1,6 +1,6 @@
 # Lire un bouton
 
-Connecter le Raspberry Pico sur une carte d'essai et connecté également un bouton poussoir. Relier une des pins du bouton poussoir au 3.3V et l'autre à une entrée GPIO (par exemple GP15).
+Connecter le Raspberry Pico sur une carte d'essai et connecter également un bouton poussoir. Relier une des pins du bouton poussoir au 3.3V et l'autre à une entrée GPIO (par exemple GP15).
 
 Voici un schéma de la connexion interne d'un bouton poussoir.
 

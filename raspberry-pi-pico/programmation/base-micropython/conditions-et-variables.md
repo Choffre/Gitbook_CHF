@@ -1,6 +1,6 @@
 # Conditions et variables
 
-Les variables décrivent un endroit où l'on range des informations telles que des nombres, du texte, des listes de nombres ou de texte.  Elles peuvent être modifié à n'importe quel instant. On utilise des variables pour sauvegarder des données qui seront utilisées plus tard dans le code.&#x20;
+Les variables décrivent un endroit où l'on range des informations telles que des nombres, du texte, des listes de nombres.  Elles peuvent être modifiées à n'importe quel instant. On utilise des variables pour sauvegarder des données qui seront utilisées plus tard dans le code.&#x20;
 
 Les variables ont un **nom** qui identifie la variable et une **valeur** qui est enregistré dans la variable.
 

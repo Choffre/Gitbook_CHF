@@ -45,7 +45,7 @@ Cliquer sur Run pour voir le résultat du programme dans le shell.
 
 ## Boucle infinie
 
-La boucle infini renferme un code qui sera exécuté indéfiniment. Remplacer la boucle for par la boucle infini suivante:
+La boucle infinie renferme un code qui sera exécuté indéfiniment. Remplacer la boucle for par la boucle infinie suivante:
 
 ```python
 while True:
@@ -65,15 +65,15 @@ Dans les exemples ci-dessus, nous utilisons print() et range() qui sont deux fon
 
 {% tabs %}
 {% tab title="Ex 1" %}
-Faire un programme avec 2 boucles définis à la suite
+Faire un programme avec 2 boucles définies à la suite
 {% endtab %}
 
 {% tab title="Ex 2" %}
-Faire un programme avec une boucle défini dans une boucle défini
+Faire un programme avec une boucle définie dans une boucle définie
 {% endtab %}
 
 {% tab title="Ex 3" %}
-Faire un programme avec une boucle infini et compter le nombre de passage dans la boucle et l'afficher dans le shell.
+Faire un programme avec une boucle infinie et compter le nombre de passage dans la boucle et l'afficher dans le shell.
 {% endtab %}
 {% endtabs %}
 

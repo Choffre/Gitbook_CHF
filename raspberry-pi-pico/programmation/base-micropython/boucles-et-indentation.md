@@ -4,7 +4,7 @@ Un programme en MicroPython s'exécute du haut au bas de la page, comme les autr
 
 Contrairement au langage c par exemple, le MicroPython n’utilise pas de {} pour contrôler les séquences mais l’indentation.
 
-## Boucle fini
+## Boucle finie
 
 Créer un nouveau programme dans Thonny et commencer le programme par:
 
@@ -43,7 +43,7 @@ print("Loop finished!")
 
 Cliquer sur Run pour voir le résultat du programme dans le shell.
 
-## Boucle infini
+## Boucle infinie
 
 La boucle infini renferme un code qui sera exécuté indéfiniment. Remplacer la boucle for par la boucle infini suivante:
 

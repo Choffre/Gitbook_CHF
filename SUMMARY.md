@@ -24,6 +24,7 @@
 * [Signaux, constantes](signaux-constantes.md)
 * [Opérateurs](operateurs.md)
 * [Instructions concurrentes](instructions-concurrentes.md)
+* [Instructions séquentielles](instructions-sequentielles.md)
 
 ## Exercices
 

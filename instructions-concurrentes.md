@@ -1,6 +1,6 @@
 # Instructions concurrentes
 
-Les instructions d'une architecture sont, sauf exception, évaluées en permence et toute simultanément. ce type de fonctionnement est appelé parallèle ou concurrent. L'ordre des instructions n'a donc pas d'influence.
+Les instructions d'une architecture sont, sauf exception, évaluées en permence et toutes simultanément. Ce type de fonctionnement est appelé parallèle ou concurrent. L'ordre des instructions n'a donc pas d'influence.
 
 ## Assignation inconditionnelle
 
@@ -18,13 +18,13 @@ C <= A and B;
 
 La sortie `C` prend la valeur du résultat de `A and B.`
 
-L'affectation `std_logic` correspond à assigner un caractère:
+L'affectation à un signal de type `std_logic` correspond à assigner un caractère:
 
 ```vhdl
 signal_1bit <= '1';
 ```
 
-L'affectation `std_logic_vector` correspond à assigner une chaîne de caractères:
+L'affectation à un signal de type `std_logic_vector` correspond à assigner une chaîne de caractères:
 
 ```vhdl
 vecteur_4bits <= "0101";
@@ -67,6 +67,8 @@ WITH selecteur SELECT
               expressionx WHEN OTHERS;
 ```
 
+Cette instruction permet d'assigner différentes valeurs au signal en fonction de la valeur de sélecteur.
+
 Voici un exemple:
 
 ```vhdl
@@ -82,4 +84,16 @@ BEGIN
              C when "10",
              D when others;
 end ARCH_WITH;
+```
+
+X prend la valeur du signal A si le signal ETAT  vaut "00", prend la valeur de B si ETAT vaut "01", etc.
+
+L'instruction `when others;` est recommandée afin de traiter toutes les possibilités.
+
+Il est possible d'utiliser de regrouper plus valeurs du sélecteur pour une même action. Les différentes valeurs sont séparées par le symbole '|'.
+
+```vhdl
+with (address) select
+    CS <=   '0' when "010" | "011",
+            'l' when others;
 ```

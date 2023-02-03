@@ -30,9 +30,9 @@ Rechercher et choisir la carte Basys 3 dans l'onglet "Boards".
 
 <figure><img src="../.gitbook/assets/part.PNG" alt=""><figcaption></figcaption></figure>
 
-Puis cliquez sur Next et puis Finish. Le projet est maintenant créé.
+Puis cliquez sur **Next** et puis **Finish**. Le projet est maintenant créé.
 
-Vivado ouvre à présent une fenêtre pour définir les entrées et sorties du projet. Pour l'exercice 1, il y a 1 entrée SW0 et 1 sortie LD0.
+Vivado ouvre à présent une fenêtre pour définir les entrées et sorties du projet. Pour l'exercice 1, il y a 1 entrée SW0 et 1 sortie LD0 comme dans l'exemple ci-dessous.
 
 <figure><img src="../.gitbook/assets/define_module (1).PNG" alt=""><figcaption></figcaption></figure>
 

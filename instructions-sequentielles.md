@@ -20,7 +20,9 @@ END PROCESS;
 
 La liste de sensibilité (sensitivity\_list) contient la liste de signaux qui vont réveiller un PROCESS en sommeil.&#x20;
 
-La zone déclarative est privé au PROCESS
+La zone déclarative est privé au PROCESS, des variables peuvent être déclarés à cet endroit.
+
+Entre BEGIN et END PROCESS se situe la zone d'instructions qui sont exécutées séquentiellement. On peut faire l'analogie entre cette zone et un boucle infinie en programmation.&#x20;
 
 {% hint style="info" %}
 **Séquentielles et concurrents**

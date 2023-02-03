@@ -2,7 +2,7 @@
 
 Veuillez suivre la procédure suivante pour créer un nouveau projet.
 
-Cliquez sur Files, New project.
+Dans le menu **Files**, cliquez sur **New project**.
 
 {% hint style="info" %}
 Ne pas mettre d'espace dans le nom du projet
@@ -18,11 +18,11 @@ Créer une source en cliquant sur le +, puis "Create file".&#x20;
 
 <figure><img src="../.gitbook/assets/add_source.PNG" alt=""><figcaption></figcaption></figure>
 
-Sélectionner le type VHDL et donner un nom au fichier.
+Sélectionner le type VHDL et donner un nom au fichier. Vous pouvez donner le même nom que pour le projet.
 
 <figure><img src="../.gitbook/assets/create_source.PNG" alt=""><figcaption></figcaption></figure>
 
-Cliquez sur Next et ensuite ajouter le fichier de contrainte correspondant à la carte Basys 3 (Basys-3-Master.xdc). Ce fichier se trouve dans le fichier digilent-xdc-master.zip téléchargé précédemment. Cochez "Copy constraints files into project" et cliquez sur Next.
+Cliquez sur Next et ensuite ajouter le fichier de contrainte correspondant à la carte Basys 3 (Basys-3-Master.xdc). Ce fichier se trouve dans le dossier digilent-xdc-master que vous avez copier dans vos documents pendant la procédure d'installation. Cochez "Copy constraints files into project" et cliquez sur Next.
 
 <figure><img src="../.gitbook/assets/contraintes.PNG" alt=""><figcaption></figcaption></figure>
 

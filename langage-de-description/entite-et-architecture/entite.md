@@ -1,6 +1,6 @@
 # Entité
 
-L'entité représente donc la vue externe d'un circuit. Dans la rubrique PORT, on y trouve la définition des entrées et sorties du composant.&#x20;
+L'entité représente donc la vue externe d'un circuit. On y trouve donc, dans la rubrique PORT, la définition des entrées et sorties du composant.&#x20;
 
 Voici la syntaxe de la déclaration d'entité.
 
@@ -27,10 +27,10 @@ Il existe plusieurs types prédéfinis comme `integer, natural, positive, bit, b
 
 Pour la synthèse de circuit logique, nous allons utiliser principalement les types complémentaires **`std_logic`** et **`std_logic_vector`**. &#x20;
 
-Le type `std_logic` peut prendre 9 valeurs décrivant tous les états d'un signal électronique numérique. Dans un premier temps, nous allons utiliser les états suivants:
+Le type `std_logic` peut prendre 9 valeurs décrivant tous les états d'un signal électronique numérique. Dans un premier temps, nous allons utiliser les valeurs suivantes:
 
-* `'0'` niveau 0&#x20;
-* `'1'` niveau 1
+* `'0'` niveau 0, forçage fort&#x20;
+* `'1'` niveau 1, forçage fort&#x20;
 * `'Z'` haute impédance&#x20;
 * `'-'` quelconque (indifférent)
 
@@ -44,19 +44,20 @@ use IEEE.STD_LOGIC_1164.ALL;
 Voici un exemple de déclaration d'un signal de type `std_logic_vector`:&#x20;
 
 ```vhdl
-DATA : in std_logic_vector(15 downto 0);  --  DATA est un vecteur d'entrée de 16 bits
+DATA : in std_logic_vector(15 downto 0);
 ```
 
 `DATA` est donc un vecteur qui contient les 16 signaux de type `std_logic` suivants: `DATA(15), DATA(14), ..., DATA(1), DATA(0)`
 
 ## Exemple
 
-Voici la déclaration de l'entité correspondant à l'exemple de la [page précédente](./).
+Voici la déclaration de l'entité correspondant à l'exemple de la page précédente.
 
-<pre class="language-vhdl"><code class="lang-vhdl"><strong>ENTITY Fonction1 IS
-</strong>    PORT (
+```vhdl
+ENTITY Fonction1 IS
+    PORT (
         A,B : IN std_logic;
         C : OUT std_logic
     );
 END Fonction1;
-</code></pre>
+```

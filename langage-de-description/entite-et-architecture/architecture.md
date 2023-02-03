@@ -28,6 +28,7 @@ Les instructions sont concurrentes, elles s'exécutent en parallèle. Les instru
 ARCHITECTURE Behavorial OF ENTITY_NAME IS
     -- zone déclarative
 BEGIN
+    -- zone d'instructions
     instruction concurrente;
     instruction concurrente;
     ..

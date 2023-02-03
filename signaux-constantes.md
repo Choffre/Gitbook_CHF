@@ -1,6 +1,6 @@
 # Signaux, constantes
 
-Ces éléments peuvent être déclaré dans la partie déclarative de l'architecture.&#x20;
+Ces éléments peuvent être déclarés dans la **partie déclarative** de l'architecture.&#x20;
 
 ## Signaux
 
@@ -18,7 +18,7 @@ Il est souvent nécessaire de faire appel à des signaux internes dans la descri
 
 Une constante peut être assimilée à un signal interne auquel est associé une valeur fixe et définitive. La déclaration d'une constante est rarement une nécessité, elles sont utilisées pour une meilleures lisibilité et une meilleure compréhension.&#x20;
 
-L'affection de valeur s'effectue avec l'opérateur ':=', voici quelques exemples:
+L'affection de valeur pour les constantes s'effectue avec l'opérateur ':=', voici quelques exemples:
 
 ```vhdl
 CONSTANT ZERO : std_logic_vector(l DOWNTO 0) := "00";
@@ -26,7 +26,7 @@ CONSTANT HUIT_OU_PLUS : std_logic_vector(3 DOWNTO 0) := "1---";
 CONSTANT HAUTE_IMPED : std_logic_vector(7 DOWNTO 0) := "ZZZZZZZZ"
 ```
 
-Lorsqu'il est nécessaire de mettre tous les bits d'un vecteur à la même valeure, il est possible d'utiliser l'écriture simplifiée suivante:
+Lorsqu'il est nécessaire de mettre tous les bits d'un vecteur à la même valeur, il est possible d'utiliser l'écriture simplifiée suivante:
 
 ```vhdl
 CONSTANT HI_Z : std_logic_vector(15 DOWNTO 0) := (OTHERS => 'Z');

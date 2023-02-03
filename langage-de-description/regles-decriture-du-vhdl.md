@@ -19,7 +19,7 @@ Les identificateurs pour les objets utilisés en VHDL doivent suivre les règles
 * Le premier caractère doit être une lettre.&#x20;
 * Il peut comporter des lettres (les 26 lettre de l'alphabet uniquement, minuscules ou majuscules), chiffres ou underscore "\_".
 * Il ne peut pas y avoir 2 "\__" qui se suivent et "\_" ne peut pas terminer le nom._
-* _L'identificatuer ne pas être un nom réservé._
+* _L'identificateur ne peut pas être un nom réservé._
 
 ### Noms réservés
 
@@ -29,14 +29,14 @@ Le langage défini des mots clés qui ont une fonction définie et qui ne peuven
 
 ### Fin d'instruction
 
-Les instructions VHDL se terminent par le séparateur ";".&#x20;
+Les instructions VHDL se terminent par le séparateur "**`;`**".&#x20;
 
 ### Espaces, sauts de lignes
 
 Les espaces ne sont pas significatifs sauf dans les valeurs littérales et pour la séparation des identificateurs.
 
 ```vhdl
-A <= B and C;
+A <= B and C;  -- ces deux lignes sont identiques
 A<=B and C ;
 ```
 
@@ -53,4 +53,11 @@ A <= B when C='0'
 else D;
 ```
 
-###
+### Les caractères et les chaînes
+
+Les caractères sont compris entre apostrophes **`'`** et les chaîne de caractères entre guillemet **`"`**
+
+```vhdl
+'1'            -- un caactère
+"01010111"     -- chaîne de caractère   
+```

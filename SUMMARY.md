@@ -31,7 +31,7 @@
 * [Ex 1: Allumer une led](langage-de-description/exercices/ex-1-allumer-une-led.md)
 * [Ex 2: Allumer plusieurs Led](langage-de-description/exercices/ex-2-allumer-plusieurs-led.md)
 * [Ex 3: Allumage simultané](langage-de-description/exercices/ex-3-allumage-simultane.md)
-* [Ex 4: Convertisseur bin - 7 seg](exercices/ex-4-convertisseur-bin-7-seg.md)
+* [Ex 4: Convertisseur binaire - 7 segments](exercices/ex-4-convertisseur-binaire-7-segments.md)
 * [Ex 5: Chifoumi](exercices/ex-5-chifoumi.md)
 * [Ex 6: Comparaison](exercices/ex-6-comparaison.md)
 * [Ex 7: Chenillard](exercices/ex-6-chenillard.md)

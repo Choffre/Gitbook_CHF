@@ -1,8 +1,8 @@
-# Ex 4: Chenillard
+# Ex 7: Chenillard
 
 Mettez au point un programme permettant de faire défiler une LED en partant de LD0 à LD15 de façon cyclique.
 
-<figure><img src="../../.gitbook/assets/Defilement.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Defilement.PNG" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Utilisez une détection de flanc à l’aide de l’entrée « CLK ».

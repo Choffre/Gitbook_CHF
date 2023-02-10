@@ -34,4 +34,4 @@
 * [Ex 4: Convertisseur bin - 7 seg](exercices/ex-4-convertisseur-bin-7-seg.md)
 * [Ex 5: Chifoumi](exercices/ex-5-chifoumi.md)
 * [Ex 6: Comparaison](exercices/ex-6-comparaison.md)
-* [Ex 7: Chenillard](exercices/ex-7-chenillard.md)
+* [Ex 7: Chenillard](exercices/ex-6-chenillard.md)

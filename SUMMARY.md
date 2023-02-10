@@ -34,4 +34,5 @@
 * [Ex 4: Convertisseur binaire - 7 segments](exercices/ex-4-convertisseur-binaire-7-segments.md)
 * [Ex 5: Chifoumi](exercices/ex-5-chifoumi.md)
 * [Ex 6: Comparaison](exercices/ex-6-comparaison.md)
-* [Ex 7: Chenillard](exercices/ex-6-chenillard.md)
+* [Ex 7: Multiplexeur / démultiplexeur](exercices/ex-7-multiplexeur-demultiplexeur.md)
+* [Ex 8: Chenillard](exercices/ex-8-chenillard.md)

@@ -6,7 +6,5 @@ A l’aide des boutons « SW0 » à « SW3 », créez un programme permettant de
 
 Les valeurs à afficher sont en hexadécimal allant de 0 à F.
 
-{% hint style="info" %}
-Prenez le temps de bien observer le schéma électrique des afficheurs 7 segments. Notamment pour trouver comment le / les sélectionner (il s’agit d’une matrice).
-{% endhint %}
+
 
